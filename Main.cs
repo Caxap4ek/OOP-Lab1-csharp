@@ -63,13 +63,11 @@ namespace LAbor1_OOP_
             if ((AB != CD))
             {
                 Console.WriteLine("The resulting figure is not a rectangle");
-                return;
             }
             double cosABxBC = ((B.x - A.x)* (C.x - B.x) + (B.y - A.y)* (C.y - B.y))/ (AB * BC);
             if (cosABxBC != 0)
             {
                 Console.WriteLine("The resulting figure is not a rectangle");
-                return;
             }
             else
             {
@@ -80,7 +78,7 @@ namespace LAbor1_OOP_
             double per = A.Perimeter(AB, BC);
             Console.WriteLine("The perimeter of this rectangle is equal - " + per);
             Console.WriteLine("The perimeter of this rectangle is equal - " + area);
-            return;
+            Console.WriteLine();
         }
     }
 }
