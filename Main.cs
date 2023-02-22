@@ -77,7 +77,7 @@ namespace LAbor1_OOP_
             double area = A.Area(AB, BC);
             double per = A.Perimeter(AB, BC);
             Console.WriteLine("The perimeter of this rectangle is equal - " + per);
-            Console.WriteLine("The perimeter of this rectangle is equal - " + area);
+            Console.WriteLine("The area of this rectangle is equal - " + area);
             Console.WriteLine();
         }
     }
